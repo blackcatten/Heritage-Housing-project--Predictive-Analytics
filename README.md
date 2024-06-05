@@ -12,7 +12,9 @@ To achieve this, the UI and data analysis components of the app are meticulously
 
 Throughout the project, I utilized best practices in data preprocessing, feature engineering, model selection, and evaluation. By leveraging Python's robust ecosystem of data science libraries, I was able to create a dynamic and effective tool for machine learning experimentation and deployment. The use of Streamlit allows for a seamless and interactive user experience, making it easy to iterate on models and visualize results in real-time.
 
+## USER STORY
 
+[Kanban board](https://github.com/users/blackcatten/projects/2/views/1) with my defined [USER STORIES](https://github.com/blackcatten/Heritage-Housing-project--Predictive-Analytics/milestone/1?closed=1) and their acceptance criteria are available here.
 
 ## Dataset Content
 
@@ -120,8 +122,6 @@ The ML model is considered a failure if, after 12 months of usage, the model's p
 The output should be a continuous value representing the sale price.
 
 ## Dashboard Design
-
-[Kanban board](https://github.com/users/blackcatten/projects/2/views/1) with my defined [USER STORIES](https://github.com/blackcatten/Heritage-Housing-project--Predictive-Analytics/milestone/1?closed=1) and their acceptance criteria are available here.
 
 #### Page 1: Quick Project Summary
 Quick Project Summary:
