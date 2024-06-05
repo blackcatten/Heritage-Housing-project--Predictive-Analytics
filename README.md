@@ -98,7 +98,26 @@ To fulfill the business requirements and in consultation with the client, we hav
 
 ## ML Business Case
 
-* In the previous bullet, you potentially visualised an ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
+**Predict Sale Price**
+- Regression Model:
+
+We aim to develop an ML model to predict the sale price of a house. The target variable is continuous. We will use a supervised, uni-dimensional regression model to achieve this.
+
+- Ideal Outcome:
+
+Our goal is to provide our client with reliable insights into the expected sale price of her inherited houses.
+
+- Model Success Metrics:
+
+R2 Score: The model must achieve an R2 score of at least 0.7 on both the training and test sets.
+
+- Failure Conditions:
+
+The ML model is considered a failure if, after 12 months of usage, the model's predictions are off by 50% or more in over 30% of the cases. For example, a prediction is considered more than 50% off if the predicted value is ten months and the actual value is two months.
+
+- Output:
+
+The output should be a continuous value representing the sale price.
 
 ## Dashboard Design
 
