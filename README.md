@@ -121,6 +121,8 @@ The output should be a continuous value representing the sale price.
 
 ## Dashboard Design
 
+[Kanban board](https://github.com/users/blackcatten/projects/2/views/1) with my defined [USER STORIES](https://github.com/blackcatten/Heritage-Housing-project--Predictive-Analytics/milestone/1?closed=1) and their acceptance criteria are available here.
+
 #### Page 1: Quick Project Summary
 Quick Project Summary:
 
