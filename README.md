@@ -1,6 +1,6 @@
 # Heritage Housing project -Predictive-Analytics
 
-
+[Live Project](https://predictive-analytics-69424e907041.herokuapp.com/)
 
 In this project, I have developed a comprehensive Data App with a sophisticated Machine Learning User Interface (UI). This app integrates: Python packages for Machine Learning, Data Analysis, and Data Visualization, such as scikit-learn, pandas, and matplotlib; and Streamlit, a powerful tool for rapid prototyping of machine learning models and creating interactive applications. This project was undertaken as my final milestone project at Code Institute, aiming to showcase my proficiency in conducting in-depth data analysis, extracting meaningful insights, and providing data-driven recommendations.
 
@@ -212,7 +212,7 @@ Evaluation of the pipeline's performance, including metrics and validation resul
 
 ### Heroku
 
-* The App live link is: <>
+* The App live link is: [Live Project](https://predictive-analytics-69424e907041.herokuapp.com/)
 * Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
 * The project was deployed to Heroku using the following steps.
 
