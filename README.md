@@ -121,8 +121,78 @@ The output should be a continuous value representing the sale price.
 
 ## Dashboard Design
 
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items that your dashboard library supports.
-* Eventually, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but eventually you needed to use another plot type)
+#### Page 1: Quick Project Summary
+Quick Project Summary:
+
+Overview of the project's objectives and key outcomes.
+Project Terms & Jargon:
+
+Explanation of important terms and jargon used throughout the project.
+Describe Project Dataset:
+
+Description of the dataset, including the number of rows and columns, and the types of features included.
+State Business Requirements:
+
+Clear statement of the business requirements that the project aims to address.
+#### Page 2: House Sale Price Study
+Purpose:
+
+To address Business Requirement 1 through data visualization and analysis.
+Content:
+
+State Business Requirement 1: Clearly define the first business requirement.
+Checkbox: Data Inspection:
+Display the number of rows and columns in the dataset.
+Show the first ten rows of the dataset for initial inspection.
+Display Correlated Variables:
+Present the most correlated variables to house prices and summarize the conclusions.
+Checkbox: Individual Plots:
+Show plots illustrating house price levels for each correlated variable.
+Checkbox: Plot with OverallQuality Hue:
+Display a plot showing house prices and correlated variables, colored by Overall Quality.
+#### Page 3: House Value Estimator
+Purpose:
+
+To address Business Requirement 2 by providing a tool for predicting house sale prices.
+Content:
+
+State Business Requirement 2: Clearly define the second business requirement.
+Widgets for User Input:
+Provide input fields for various house variables related to the prediction task.
+Run Predictive Analysis Button:
+A button that triggers the ML pipelines to predict the house's sale price based on the input data.
+#### Page 4: Project Hypothesis and Validation
+Purpose:
+
+To describe and validate each hypothesis formulated during the project.
+Content:
+
+Hypothesis 1:
+Larger square footage correlates with higher sales price.
+Validation: Strong correlation confirmed by the correlation study.
+Hypothesis 2:
+More recent Year Built dates correlate with higher sales prices among houses with similar square footage.
+Validation: Moderate correlation confirmed, with recent builds typically having higher Overall Quality.
+Hypothesis 3:
+More recent Remodel dates correlate with higher sales prices among houses with similar square footage and Year Built dates.
+Validation: Weak to moderate correlation confirmed, noting the relationship with higher Overall Quality.
+Hypothesis 4:
+Higher quality and condition scores correlate with higher sales prices among houses with similar square footage.
+Validation: Strong correlation confirmed by the correlation study.
+Page 5: ML: Predict House Value
+Purpose:
+
+To present the considerations and conclusions after training the ML pipeline.
+Content:
+
+Considerations and Conclusions:
+Insights and lessons learned from the ML pipeline training process.
+ML Pipeline Steps:
+Detailed presentation of the steps involved in the ML pipeline.
+Feature Importance:
+Analysis and visualization of the importance of different features in the prediction model.
+Pipeline Performance:
+Evaluation of the pipeline's performance, including metrics and validation results.
 
 ## Unfixed Bugs
 
