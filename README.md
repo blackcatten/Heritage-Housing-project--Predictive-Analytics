@@ -1,8 +1,6 @@
-# 
+# Heritage Housing project -Predictive-Analytics
 
-## 
 
-Welcome,
 
 In this project, I have developed a comprehensive Data App with a sophisticated Machine Learning User Interface (UI). This app integrates: Python packages for Machine Learning, Data Analysis, and Data Visualization, such as scikit-learn, pandas, and matplotlib; and Streamlit, a powerful tool for rapid prototyping of machine learning models and creating interactive applications. This project was undertaken as my final milestone project at Code Institute, aiming to showcase my proficiency in conducting in-depth data analysis, extracting meaningful insights, and providing data-driven recommendations.
 
@@ -15,6 +13,8 @@ Throughout the project, I utilized best practices in data preprocessing, feature
 ## USER STORY
 
 [Kanban board](https://github.com/users/blackcatten/projects/2/views/1) with my defined [USER STORIES](https://github.com/blackcatten/Heritage-Housing-project--Predictive-Analytics/milestone/1?closed=1) and their acceptance criteria are available here.
+
+![user story](media/userstory.png)
 
 ## Dataset Content
 
@@ -196,15 +196,12 @@ Analysis and visualization of the importance of different features in the predic
 Pipeline Performance:
 Evaluation of the pipeline's performance, including metrics and validation results.
 
-## Unfixed Bugs
-
-* You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not valid reason to leave bugs unfixed.
 
 ## Deployment
 
 ### Heroku
 
-* The App live link is: <https://YOUR_APP_NAME.herokuapp.com/>
+* The App live link is: <>
 * Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
 * The project was deployed to Heroku using the following steps.
 
@@ -217,26 +214,39 @@ Evaluation of the pipeline's performance, including metrics and validation resul
 
 ## Main Data Analysis and Machine Learning Libraries
 
-* Here you should list the libraries you used in the project and provide example(s) of how you used these libraries.
+### Libraries Used In The Project:
+
+- Numpy: Utilized for processing arrays that store values and data.
+
+
+- Pandas: Employed for data analysis, data exploration, data manipulation, and data visualization.
+
+
+- Matplotlib: Used for generating graphs and plots to visualize the data.
+
+
+- Seaborn: Utilized to visualize the data in the Streamlit app with graphs and plots.
+
+
+- ML: feature-engine: Applied for engineering the data for the pipeline.
+
+
+- ML: Scikit-learn: Used to create the pipeline and apply algorithms, as well as feature engineering steps.
+
+
+- Streamlit: Employed for building the web application.
+
 
 ## Credits
 
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-* You can break the credits section up into Content and Media, depending on what you have included in your project.
 
 ### Content
 
-* The text for the Home page was taken from Wikipedia Article A
-* Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-* The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+* The codes was taken from Walkthrough Project 02  Churnometer at Code Institute.
 
 ### Media
 
-* The photos used on the home and sign-up page are from This Open Source site
-* The images used for the gallery page were taken from this other open-source site
-
-## Acknowledgements (optional)
+- Home Page image was used from [Freepik](https://www.freepik.com/search?format=search&last_filter=query&last_value=Heritage-Housing-project--Predictive-Analytics&query=Heritage-Housing-project--Predictive-Analytics)
 
 
-* In case you would like to thank the people that provided support through this project.
 
