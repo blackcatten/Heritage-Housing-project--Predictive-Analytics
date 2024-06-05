@@ -1,46 +1,18 @@
-# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# 
 
-## Template Instructions
+## 
 
 Welcome,
 
-This is the Code Institute student template for the Heritage Housing project option in Predictive Analytics. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions. Click the `Use this template` button above to get started.
+In this project, I have developed a comprehensive Data App with a sophisticated Machine Learning User Interface (UI). This app integrates: Python packages for Machine Learning, Data Analysis, and Data Visualization, such as scikit-learn, pandas, and matplotlib; and Streamlit, a powerful tool for rapid prototyping of machine learning models and creating interactive applications. This project was undertaken as my final milestone project at Code Institute, aiming to showcase my proficiency in conducting in-depth data analysis, extracting meaningful insights, and providing data-driven recommendations.
 
-You can safely delete the Template Instructions section of this README.md file,  and modify the remaining paragraphs for your own project. Please do read the Template Instructions at least once, though! It contains some important information about the IDE and the extensions we use.
+The objective of this project is to immerse users in an environment that mirrors real-world business scenarios. It encourages a deep understanding of the purpose and methodology behind a Machine Learning system that delivers significant value to an organization. The project is designed to help users think critically about the "whys" and the "hows" of implementing machine learning solutions to solve business problems.
 
-## How to use this repo
+To achieve this, the UI and data analysis components of the app are meticulously designed to align with professional business requirements. The user interface is intuitive and interactive, allowing users to explore data sets, visualize trends, and understand the impact of different variables on outcomes. The data analysis is thorough and methodical, ensuring that the insights generated are accurate and actionable.
 
-1. Use this template to create your GitHub project repo
+Throughout the project, I utilized best practices in data preprocessing, feature engineering, model selection, and evaluation. By leveraging Python's robust ecosystem of data science libraries, I was able to create a dynamic and effective tool for machine learning experimentation and deployment. The use of Streamlit allows for a seamless and interactive user experience, making it easy to iterate on models and visualize results in real-time.
 
-2. Log into the cloud-based IDE with your GitHub account.
 
-3. On your Dashboard, click on the Create button
-
-4. Paste in the URL you copied from GitHub earlier
-
-5. Click Create
-
-6. Wait for the workspace to open. This can take a few minutes.
-
-7. Open a new terminal and `pip3 install -r requirements.txt`
-
-11. Open the jupyter_notebooks directory and click on the notebook you want to open.
-
-12. Click the kernel button and choose Python Environments.
-
-Note that the kernel says Python 3.8.18 as it inherits from the workspace so it will be Python-3.8.18 as installed by our template. To confirm this you can use `! python --version` in a notebook code cell.
-
-## Cloud IDE Reminders
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In your Cloud IDE, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with *Regenerate API Key*.
 
 ## Dataset Content
 
@@ -85,7 +57,22 @@ Although your friend has an excellent understanding of property prices in her ow
 
 ## Hypothesis and how to validate?
 
-* List here your project hypothesis(es) and how you envision validating it (them).
+To fulfill the business requirements and in consultation with the client, we have formulated the following hypotheses:
+
+1. Hypothesis on Correlation with Sale Price:
+
+- We hypothesize that a property's sale price is significantly correlated with a subset of the numerous features in the dataset. To test this, we plan to conduct a comprehensive correlation analysis.
+- The detailed correlation study, displayed in the app, confirms this hypothesis.
+
+2. Hypothesis on Key Features Influencing Sale Price:
+
+- We hypothesize that the strongest correlations will be with common home features such as total square footage, overall condition, and overall quality. We will validate this through our correlation analysis.
+- The extensive correlation study confirms that the five features most strongly correlated with Sale Price are: 'OverallQual', 'GrLivArea', 'GarageArea', 'TotalBsmtSF', 'YearBuilt', and '1stFlrSF'. These features are common to the majority of homes.
+
+3.Hypothesis on Predictive Model Accuracy:
+
+- We hypothesize that it is possible to predict the sale price with an R2 value of at least 0.8. To validate this, we will develop a predictive model, optimize it using data modeling techniques, and evaluate it against the required criteria.
+- The model evaluation has confirmed this hypothesis, achieving R2 values of 0.84 or higher for both the test and train sets.
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
 
