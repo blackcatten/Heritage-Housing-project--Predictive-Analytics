@@ -76,7 +76,25 @@ To fulfill the business requirements and in consultation with the client, we hav
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
 
-* List your business requirements and a rationale to map them to the Data Visualisations and ML tasks.
+**Business Requirement 1: Data Visualization and Correlation Study**
+
+- Objective: Analyze the data related to property sale prices in Ames, Iowa.
+    - Action: Inspect the dataset to understand the distribution and characteristics of the data.
+    - Task: Conduct a correlation study using both Pearson and Spearman methods to identify how various variables relate to the sale price.
+    - Visualization: Plot the most significant and relevant data points against the sale price to reveal key insights.
+
+**Business Requirement 2: Regression and Data Analysis**
+
+- Objective: Predict the sale price of homes in Ames, Iowa.
+    - Action: Develop a regression model with the sale price as the target variable.
+    - Task: Perform optimization and evaluation to ensure the model achieves an R2 value of 0.8 or higher.
+
+**Business Requirement 3: Online App and Deployment**
+
+- Objective: Create an interactive app that showcases data analysis, visualizations, and predictive capabilities.
+    - Action: Build an app using Streamlit to display all relevant data analyses and visualizations.
+    - Task: Implement a feature within the app that allows the client to predict sale prices for properties in Ames, Iowa.
+    - Deployment: Deploy the app on Heroku to make it accessible online.
 
 ## ML Business Case
 
