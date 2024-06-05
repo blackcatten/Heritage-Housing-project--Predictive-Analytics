@@ -124,6 +124,8 @@ The output should be a continuous value representing the sale price.
 ## Dashboard Design
 
 #### Page 1: Quick Project Summary
+
+![page1](media/page1.png)
 Quick Project Summary:
 
 Overview of the project's objectives and key outcomes.
@@ -137,6 +139,8 @@ State Business Requirements:
 
 Clear statement of the business requirements that the project aims to address.
 #### Page 2: House Sale Price Study
+
+![page2](media/page2.png)
 Purpose:
 
 To address Business Requirement 1 through data visualization and analysis.
@@ -153,6 +157,8 @@ Show plots illustrating house price levels for each correlated variable.
 Checkbox: Plot with OverallQuality Hue:
 Display a plot showing house prices and correlated variables, colored by Overall Quality.
 #### Page 3: House Value Estimator
+
+![page3](media/page3.png)
 Purpose:
 
 To address Business Requirement 2 by providing a tool for predicting house sale prices.
@@ -164,6 +170,8 @@ Provide input fields for various house variables related to the prediction task.
 Run Predictive Analysis Button:
 A button that triggers the ML pipelines to predict the house's sale price based on the input data.
 #### Page 4: Project Hypothesis and Validation
+
+![page4](media/page4.png)
 Purpose:
 
 To describe and validate each hypothesis formulated during the project.
@@ -181,7 +189,10 @@ Validation: Weak to moderate correlation confirmed, noting the relationship with
 Hypothesis 4:
 Higher quality and condition scores correlate with higher sales prices among houses with similar square footage.
 Validation: Strong correlation confirmed by the correlation study.
-Page 5: ML: Predict House Value
+
+#### Page 5: ML: Predict House Value
+
+![Page5](media/page5.png)
 Purpose:
 
 To present the considerations and conclusions after training the ML pipeline.
