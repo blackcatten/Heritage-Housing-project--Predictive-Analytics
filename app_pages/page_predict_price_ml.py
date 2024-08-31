@@ -10,9 +10,9 @@ from src.machine_learning.evaluate_regression import (
 def page_predict_price_ml_body():
 
     # load regression pipeline files
-    vsn = 'v1'
+    vsn = 'v2'
     sale_price_pipe = load_pkl_file(
-        f"outputs/ml_pipeline/predict_sale_price/{vsn}/regression_pipeline.pkl"
+        f"outputs/ml_pipeline/predict_sale_price/{vsn}/best_regressor_pipeline.pkl"
     )
     sale_price_feat_importance = plt.imread(
         f"outputs/ml_pipeline/predict_sale_price/{vsn}/features_importance.png"
