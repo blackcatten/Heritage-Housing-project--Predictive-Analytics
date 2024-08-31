@@ -97,7 +97,7 @@ def DrawInputsWidgets():
     # from here on we draw the widget based on the variable type
     # (numerical or categorical) and set initial values
     # setup of widgest with min and max values, learned from
-    # https://github.com/t-hullis/milestone-project-heritage-housing-issues/tree/main
+    # https://github.com/blackcatten/Heritage-Housing-project--Predictive-Analytics/tree/main
 
     with col01:
         feature = "OverallQual"
