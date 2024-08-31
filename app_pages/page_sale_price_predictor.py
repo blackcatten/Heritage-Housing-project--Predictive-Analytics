@@ -14,9 +14,9 @@ from src.machine_learning.predictive_analysis_ui import predict_sale_price
 def page_sale_price_predictor_body():
 
     # load predict sale price files
-    vsn = 'v1'
+    vsn = 'v2'
     sale_price_pipe = load_pkl_file(
-        f"outputs/ml_pipeline/predict_sale_price/{vsn}/regression_pipeline.pkl"
+        f"outputs/ml_pipeline/predict_sale_price/{vsn}/best_regressor_pipeline.pkl"
     )
     sale_price_features = (
         pd.read_csv(
