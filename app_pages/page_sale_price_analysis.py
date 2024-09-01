@@ -69,7 +69,7 @@ def page_sale_price_analysis_body():
         f"can be approximated by a straight line. \n"
         f"In the heatmap, the final row identifies the variables on the x-axis "
         f"that exhibit a linear correlation with Sale Price greater than 0.6. "
-        f"These variables are then visualized separately in a bar plot."
+        f"These variables are then visualized separately in a bar plot.")
 
 
     if st.checkbox("Pearson Correlation"):
@@ -82,7 +82,7 @@ def page_sale_price_analysis_body():
         f"but not necessarily linear, manner.\n"
         f"As with the Pearson correlation, the last row of the heatmap shows the variables "
         f"on the x-axis with a Spearman correlation of 0.6 or above with Sale Price. "
-        f"These variables are also summarized in a bar plot for easier interpretation."
+        f"These variables are also summarized in a bar plot for easier interpretation.")
 
 
     if st.checkbox("Spearman Correlation"):
@@ -119,7 +119,7 @@ def page_sale_price_analysis_body():
         f"The PPS value ranges from 0, indicating no predictive power, to 1, representing perfect predictive power. \n"
         f"To interpret the plot, locate the row labeled 'SalePrice' on the y-axis. "
         f"Examine this row to identify variables on the x-axis with a PPS greater than 0.15. "
-        f"Among these, Overall Quality (OverallQual) demonstrates the strongest predictive power for Sale Price."
+        f"Among these, Overall Quality (OverallQual) demonstrates the strongest predictive power for Sale Price.")
 
 
     if st.checkbox("Predictive Power Score"):
