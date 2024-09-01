@@ -12,14 +12,13 @@ def page_summary_body():
     st.write("### Project Summary")
 
     st.info(
-        f"**Project Purpose and Motivation**\n"
+        f"**Project Terms & Jargon**\n"
         f"The primary purpose of this project is to create a tool that enables clients to predict"
         f" the potential sale price of properties in Ames, Iowa,by providing detailed and typical"
         f"information about the real estate in question. Specifically, a client has requested this app to"
         f"estimate the sale prices for several inherited properties in Ames, Iowa. The client has"
         f"supplied a publicly available dataset, which is used to train the machine learning model to"
         f"predict local real estate sale prices. \n \n"
-        f"**Project Terminology**\n"
 
 
 
