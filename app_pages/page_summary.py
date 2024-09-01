@@ -12,7 +12,7 @@ def page_summary_body():
     st.write("### Project Summary")
 
     st.info(
-        f"**Project Terms & Jargon**\n"
+        f"**Project Terms & Jargon**\n\n"
         f"The primary purpose of this project is to create a tool that enables clients to predict"
         f" the potential sale price of properties in Ames, Iowa,by providing detailed and typical"
         f"information about the real estate in question. Specifically, a client has requested this app to"
@@ -25,7 +25,7 @@ def page_summary_body():
         f"* **Client:** A person who uses this service.\n"
         f"* **Sale Price:** The estimated value of a home as it might be realized in a typical and unencumbered real estate transaction.\n"
         f"* **Property/Real Estate/House/Home:** Terms used interchangeably to refer to the home whose value is being estimated.\n "
-        f"* **Features/Attributes:** Characteristics used to describe the home.\n\n " 
+        f"* **Features/Attributes:** Characteristics used to describe the home.\n\n \n" 
        
         f"**Project Dataset**\n"
         f"* The dataset can be accessed at"
