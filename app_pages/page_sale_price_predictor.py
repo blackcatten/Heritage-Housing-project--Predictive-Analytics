@@ -36,12 +36,6 @@ def page_sale_price_predictor_body():
         f"for predicting Sale Price. While they align closely with the variables identified as most correlated in the "
         f"initial data analysis, there might be slight differences. This is because the model performs a more detailed "
         f"analysis to determine the optimal features for predicting Sale Price. \n\n"
-        f"For further details about the machine learning model and feature significance, please refer to the "
-        f"**ML: Price Prediction** page. \n\n"
-        f"**Information on categorical features used in the prediction**\n\n"
-        f"* Overall Quality: Ranges from 1 (Very Poor) to 10 (Very Excellent).\n\n"
-        f"All three numerical features are measured in square feet."
-
     )
     st.write("---")
 
