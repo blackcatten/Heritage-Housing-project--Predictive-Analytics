@@ -16,7 +16,8 @@ def page_sale_price_predictor_body():
     # load predict sale price files
     vsn = 'v2'
     sale_price_pipe = load_pkl_file(
-        f"outputs/ml_pipeline/predict_sale_price/{vsn}/best_regressor_pipeline.pkl"
+        f"outputs/ml_pipeline/predict_sale_price/{vsn}/"
+        f"best_regressor_pipeline.pkl"
     )
     sale_price_features = (
         pd.read_csv(
@@ -27,15 +28,22 @@ def page_sale_price_predictor_body():
 
     st.write("### Sale Price Predictor Interface")
     st.success(
-        f"The client is focused on forecasting the potential sale prices for properties in Ames, Iowa. "
-        f"She is particularly interested in assessing the value of the properties she has inherited "
+        f"The client is focused on forecasting the potential"
+        f"sale prices for properties in Ames, Iowa. "
+        f"She is particularly interested in assessing the"
+        f"value of the properties she has inherited "
     )
     st.info(
-        f"The sale price prediction will rely on four key property features, which the client can specify "
-        f"using the options below. These features were selected by the machine learning model as the most effective "
-        f"for predicting Sale Price. While they align closely with the variables identified as most correlated in the "
-        f"initial data analysis, there might be slight differences. This is because the model performs a more detailed "
-        f"analysis to determine the optimal features for predicting Sale Price. \n\n"
+        f"The sale price prediction will rely on four key property"
+        f"features, which the client can specify "
+        f"using the options below. These features were selected by"
+        f"the machine learning model as the most effective "
+        f"for predicting Sale Price. While they align closely "
+        f"with the variables identified as most correlated in the "
+        f"initial data analysis, there might be slight differences."
+        f"This is because the model performs a more detailed "
+        f"analysis to determine the optimal features for "
+        f"predicting Sale Price. \n\n"
     )
     st.write("---")
 
@@ -81,7 +89,8 @@ def DrawInputsWidgets():
     # create an empty DataFrame, which will be the live data
     X_live = pd.DataFrame([], index=[0])
 
-    # from here on we draw the widget based on the variable type (numerical or categorical)
+    # from here on we draw the widget based
+    # on the variable type (numerical or categorical)
     # and set initial values
 
     with col01:
@@ -129,3 +138,4 @@ def DrawInputsWidgets():
     X_live[feature] = st_widget
 
     return X_live
+    
