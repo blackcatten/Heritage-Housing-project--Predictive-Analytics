@@ -231,6 +231,22 @@ Evaluation of the pipeline's performance, including metrics and validation resul
 5. The deployment process should happen smoothly if all deployment files are fully functional. Click the button Open App on the top of the page to access your App.
 6. If the slug size is too large then add large files not required for the app to the .slugignore file.
 
+## PEP8 Validation
+
+Testing has been successfully conducted using the validator on the [PEP8](https://pep8ci.herokuapp.com/#) for:
+
+- multipage.py
+
+- page_predict_price_ml.py
+
+- page_project_hypothesis.py
+
+- page_sale_price_analysis.py
+
+- page_sale_price_predictor.py
+
+- page_summary.py
+
 ## Main Data Analysis and Machine Learning Libraries
 
 ### Libraries Used In The Project:
