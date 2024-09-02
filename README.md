@@ -142,7 +142,11 @@ State Business Requirements:
 Clear statement of the business requirements that the project aims to address.
 #### Page 2: House Sale Price Study
 
-![page2](media/page2.png)
+![page2](media/PAGE2.png)
+![page2](media/PAGE2A.png)
+![page2](media/PAGE2B.png)
+![page2](media/PAGE2C.png)
+![page2](media/PAGE2D.png)
 Purpose:
 
 To address Business Requirement 1 through data visualization and analysis.
