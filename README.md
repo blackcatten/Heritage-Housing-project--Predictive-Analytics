@@ -164,7 +164,7 @@ Checkbox: Plot with OverallQuality Hue:
 Display a plot showing house prices and correlated variables, colored by Overall Quality.
 #### Page 3: House Value Estimator
 
-![page3](media/page3.png)
+![page3](media/PAGE3.png)
 Purpose:
 
 To address Business Requirement 2 by providing a tool for predicting house sale prices.
