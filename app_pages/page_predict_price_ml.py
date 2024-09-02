@@ -7,34 +7,48 @@ from src.machine_learning.evaluate_regression import (
     regression_evaluation,
     regression_evaluation_plots)
 
+
 def page_predict_price_ml_body():
 
     # load regression pipeline files
     vsn = 'v2'
     sale_price_pipe = load_pkl_file(
-        f"outputs/ml_pipeline/predict_sale_price/{vsn}/best_regressor_pipeline.pkl"
+        f"outputs/ml_pipeline/predict_sale_price/{vsn}/"
+        f"best_regressor_pipeline.pkl"
     )
     sale_price_feat_importance = plt.imread(
-        f"outputs/ml_pipeline/predict_sale_price/{vsn}/features_importance.png"
+        f"outputs/ml_pipeline/predict_sale_price/{vsn}/"
+        f"features_importance.png"
     )
     X_train = pd.read_csv(
-        f"outputs/ml_pipeline/predict_sale_price/{vsn}/X_train.csv")
+        f"outputs/ml_pipeline/predict_sale_price/{vsn}/"
+        f"X_train.csv")
     X_test = pd.read_csv(
-        f"outputs/ml_pipeline/predict_sale_price/{vsn}/X_test.csv")
+        f"outputs/ml_pipeline/predict_sale_price/{vsn}/"
+        f"X_test.csv")
     y_train = pd.read_csv(
-        f"outputs/ml_pipeline/predict_sale_price/{vsn}/y_train.csv").squeeze()
+        f"outputs/ml_pipeline/predict_sale_price/{vsn}/"
+        f"y_train.csv").squeeze()
     y_test = pd.read_csv(
-        f"outputs/ml_pipeline/predict_sale_price/{vsn}/y_test.csv").squeeze()
+        f"outputs/ml_pipeline/predict_sale_price/{vsn}/"
+        f"y_test.csv").squeeze()
 
     st.write("### ML Pipeline: Predict Property Sale Price")
     # display pipeline training summary conclusions
     st.success(
-        f"A regression model was built to estimate property sale prices in Ames, Iowa. "
-        f"Initially, the dataset had 23 features, with 'SalePrice' as the target variable. "
-        f"Two features were excluded because about 90% of their data was missing. "
-        f"Subsequent feature engineering was performed on the remaining dataset. "
-        f"Through hyperparameter tuning, the model achieved an R² Score of 0.8 or higher on both the training and test sets, "
-        f"**fulfilling the project requirements**. It also pinpointed the four most crucial features for accurate predictions.")
+        f"A regression model was built to estimate property "
+        f"sale prices in Ames, Iowa. "
+        f"Initially, the dataset had 23 features,"
+        f"with 'SalePrice' as the target variable. "
+        f"Two features were excluded because about 90%"
+        f"of their data was missing. "
+        f"Subsequent feature engineering was performed on"
+        f"the remaining dataset. "
+        f"Through hyperparameter tuning, the model achieved an"
+        f"R² Score of 0.8 or higher on both the training and test sets, "
+        f"**fulfilling the project requirements**."
+        f"It also pinpointed the four most crucial"
+        f"features for accurate predictions.")
     st.write("---")
 
     # show pipeline steps
