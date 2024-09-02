@@ -126,7 +126,8 @@ The output should be a continuous value representing the sale price.
 
 #### Page 1: Quick Project Summary
 
-![page1](media/page1.png)
+![page1](media/PAGE1.png)
+![page1](media/PAGE1_.png)
 Quick Project Summary:
 
 Overview of the project's objectives and key outcomes.
