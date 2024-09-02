@@ -177,7 +177,7 @@ Run Predictive Analysis Button:
 A button that triggers the ML pipelines to predict the house's sale price based on the input data.
 #### Page 4: Project Hypothesis and Validation
 
-![page4](media/page4.png)
+![page4](media/PAGE4.png)
 Purpose:
 
 To describe and validate each hypothesis formulated during the project.
