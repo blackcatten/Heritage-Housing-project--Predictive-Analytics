@@ -198,7 +198,9 @@ Validation: Strong correlation confirmed by the correlation study.
 
 #### Page 5: ML: Predict House Value
 
-![Page5](media/page5.png)
+![Page5](media/PAGE5.png)
+![page5](media/PAGE5A.png)
+![page5](media/PAGE5B.png)
 Purpose:
 
 To present the considerations and conclusions after training the ML pipeline.
